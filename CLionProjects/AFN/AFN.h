@@ -18,8 +18,6 @@ public:
 private:
     int nrQ, nrF;
     int *F;
-    int nrE;
-    char *E;
     int nrD;
     struct tranz
     {
@@ -27,7 +25,7 @@ private:
         char c;
     } *D;
     int sc;
-    int exista;
+    bool gasit;
 
 };
 
