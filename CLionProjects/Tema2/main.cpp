@@ -14,6 +14,7 @@ int partitii[100];
 int np;   //numarul de partitii
 char* characters;
 
+
 int check_value(int i, int j, int k)
 {
   for(int p = 1; p < np; p++)  //parcurg partitiile
