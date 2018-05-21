@@ -1,0 +1,24 @@
+4
+0 1 2 3
+1
+3
+6
+0 a z 1
+0 $ z 3
+1 a a 1
+1 b a 2
+2 b a 2
+2 $ z 3
+aa $
+$ $
+aa $
+$ $
+$ $
+$ $
+
+stack.pop_back();
+stack.insert(0,"$");
+stack.push_back('t');
+
+char ch_f = str6.front();  // Same as "ch_f = str6[0];"
+char ch_b = str6.back();
